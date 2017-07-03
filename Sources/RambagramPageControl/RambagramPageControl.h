@@ -1,16 +1,26 @@
+// Copyright (c) 2017 RAMBLER&Co
 //
-//  RambagramPageControl.h
-//  BuyTicketsSDK
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
-//  Created by i.kvyatkovskiy on 4/14/17.
-//  Copyright © 2017 Rambler&Co. All rights reserved.
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
 //
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
 
 /**
- @author Ivan Kvyatkovskiy
- 
  PageControl ala Instagram
  */
 @interface RambagramPageControl : UIView
@@ -19,29 +29,21 @@
 @property (nonatomic, assign) NSUInteger numberOfPages;
 
 /**
- @author Ivan Kvyatkovskiy
- 
  Page dot size
  */
 @property (nonatomic, assign) IBInspectable CGSize dotSize;
 
 /**
- @author Ivan Kvyatkovskiy
- 
  Dot color
  */
 @property (nonatomic, strong) IBInspectable UIColor *dotColor;
 
 /**
- @author Ivan Kvyatkovskiy
-
  Selected dot color
  */
 @property (nonatomic, strong) IBInspectable UIColor *selectedDotColor;
 
 /**
- @author Ivan Kvyatkovskiy
- 
  Spacing between dots
  */
 @property (nonatomic, assign) IBInspectable CGFloat spacing;
