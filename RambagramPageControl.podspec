@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors       = { "Ivan Kvyatkovskiy" => "ivan.kvyatkovski@gmail.com" }
   s.homepage      = "https://github.com/rambler-digital-solutions/RambagramPageControl"
   s.source        = { :git => "https://github.com/rambler-digital-solutions/RambagramPageControl.git", :tag => s.version.to_s }
-  s.source_files = 'RambagramPageControl/Classes/**/*'
+  s.source_files = 'RambagramPageControl/Classes/**/*.{h,m}'
   s.platform      = :ios, "8.0"
   s.requires_arc  = true
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
