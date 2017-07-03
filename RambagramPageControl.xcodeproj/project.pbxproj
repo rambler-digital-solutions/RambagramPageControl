@@ -14,6 +14,10 @@
 		0D8EAC7E1F0A37BB004EF688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8EAC7D1F0A37BB004EF688 /* Assets.xcassets */; };
 		0D8EAC811F0A37BB004EF688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8EAC7F1F0A37BB004EF688 /* LaunchScreen.storyboard */; };
 		0D8EAC8C1F0A37BB004EF688 /* RambagramPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8EAC8B1F0A37BB004EF688 /* RambagramPageControlTests.m */; };
+		0D8EAC9F1F0A3960004EF688 /* RambagramFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8EAC991F0A3960004EF688 /* RambagramFlowLayout.m */; };
+		0D8EACA01F0A3960004EF688 /* RambagramPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8EAC9A1F0A3960004EF688 /* RambagramPageControl.m */; };
+		0D8EACA11F0A3960004EF688 /* RambagramPageControllCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8EAC9B1F0A3960004EF688 /* RambagramPageControllCell.m */; };
+		0D8EACA51F0A4512004EF688 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8EACA41F0A4512004EF688 /* ImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		0D8EAC871F0A37BB004EF688 /* RambagramPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RambagramPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8EAC8B1F0A37BB004EF688 /* RambagramPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RambagramPageControlTests.m; sourceTree = "<group>"; };
 		0D8EAC8D1F0A37BB004EF688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8EAC991F0A3960004EF688 /* RambagramFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RambagramFlowLayout.m; path = Sources/RambagramPageControl/RambagramFlowLayout.m; sourceTree = "<group>"; };
+		0D8EAC9A1F0A3960004EF688 /* RambagramPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RambagramPageControl.m; path = Sources/RambagramPageControl/RambagramPageControl.m; sourceTree = "<group>"; };
+		0D8EAC9B1F0A3960004EF688 /* RambagramPageControllCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RambagramPageControllCell.m; path = Sources/RambagramPageControl/RambagramPageControllCell.m; sourceTree = "<group>"; };
+		0D8EAC9C1F0A3960004EF688 /* RambagramFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RambagramFlowLayout.h; path = Sources/RambagramPageControl/RambagramFlowLayout.h; sourceTree = "<group>"; };
+		0D8EAC9D1F0A3960004EF688 /* RambagramPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RambagramPageControl.h; path = Sources/RambagramPageControl/RambagramPageControl.h; sourceTree = "<group>"; };
+		0D8EAC9E1F0A3960004EF688 /* RambagramPageControllCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RambagramPageControllCell.h; path = Sources/RambagramPageControl/RambagramPageControllCell.h; sourceTree = "<group>"; };
+		0D8EACA31F0A4512004EF688 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		0D8EACA41F0A4512004EF688 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 		0D8EAC651F0A37BA004EF688 = {
 			isa = PBXGroup;
 			children = (
+				0D8EAC971F0A3858004EF688 /* Sources */,
 				0D8EAC701F0A37BB004EF688 /* RambagramPageControl */,
 				0D8EAC8A1F0A37BB004EF688 /* RambagramPageControlTests */,
 				0D8EAC6F1F0A37BB004EF688 /* Products */,
@@ -85,6 +98,8 @@
 				0D8EAC751F0A37BB004EF688 /* AppDelegate.m */,
 				0D8EAC771F0A37BB004EF688 /* ViewController.h */,
 				0D8EAC781F0A37BB004EF688 /* ViewController.m */,
+				0D8EACA31F0A4512004EF688 /* ImageCollectionViewCell.h */,
+				0D8EACA41F0A4512004EF688 /* ImageCollectionViewCell.m */,
 				0D8EAC7A1F0A37BB004EF688 /* Main.storyboard */,
 				0D8EAC7D1F0A37BB004EF688 /* Assets.xcassets */,
 				0D8EAC7F1F0A37BB004EF688 /* LaunchScreen.storyboard */,
@@ -109,6 +124,35 @@
 				0D8EAC8D1F0A37BB004EF688 /* Info.plist */,
 			);
 			path = RambagramPageControlTests;
+			sourceTree = "<group>";
+		};
+		0D8EAC971F0A3858004EF688 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EAC981F0A3864004EF688 /* RambagramPageControl */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		0D8EAC981F0A3864004EF688 /* RambagramPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EAC9D1F0A3960004EF688 /* RambagramPageControl.h */,
+				0D8EAC9A1F0A3960004EF688 /* RambagramPageControl.m */,
+				0D8EACA21F0A39B4004EF688 /* Private */,
+			);
+			name = RambagramPageControl;
+			sourceTree = "<group>";
+		};
+		0D8EACA21F0A39B4004EF688 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EAC9C1F0A3960004EF688 /* RambagramFlowLayout.h */,
+				0D8EAC991F0A3960004EF688 /* RambagramFlowLayout.m */,
+				0D8EAC9E1F0A3960004EF688 /* RambagramPageControllCell.h */,
+				0D8EAC9B1F0A3960004EF688 /* RambagramPageControllCell.m */,
+			);
+			name = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8EAC9F1F0A3960004EF688 /* RambagramFlowLayout.m in Sources */,
+				0D8EACA51F0A4512004EF688 /* ImageCollectionViewCell.m in Sources */,
 				0D8EAC791F0A37BB004EF688 /* ViewController.m in Sources */,
 				0D8EAC761F0A37BB004EF688 /* AppDelegate.m in Sources */,
+				0D8EACA01F0A3960004EF688 /* RambagramPageControl.m in Sources */,
+				0D8EACA11F0A3960004EF688 /* RambagramPageControllCell.m in Sources */,
 				0D8EAC731F0A37BB004EF688 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +468,7 @@
 				0D8EAC921F0A37BB004EF688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D8EAC931F0A37BB004EF688 /* Build configuration list for PBXNativeTarget "RambagramPageControlTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +477,7 @@
 				0D8EAC951F0A37BB004EF688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

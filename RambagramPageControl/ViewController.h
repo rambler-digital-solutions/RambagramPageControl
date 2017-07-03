@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class RambagramPageControl;
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet RambagramPageControl *pageControl;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
