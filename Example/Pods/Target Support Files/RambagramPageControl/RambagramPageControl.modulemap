@@ -1,0 +1,6 @@
+framework module RambagramPageControl {
+  umbrella header "RambagramPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

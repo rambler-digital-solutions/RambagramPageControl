@@ -1,0 +1,6 @@
+framework module Pods_RambagramPageControl_Example {
+  umbrella header "Pods-RambagramPageControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RambagramPageControl_Example' do
+  pod 'RambagramPageControl', :path => '../'
+
+  target 'RambagramPageControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

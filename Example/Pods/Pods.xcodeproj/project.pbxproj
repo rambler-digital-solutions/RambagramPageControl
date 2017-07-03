@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134DD693B09CC8EC0A99D99EE779D2CD /* RambagramFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 442A801B036EA86D6B091380BD774B87 /* RambagramFlowLayout.m */; };
+		360EA22B299278739A981558F253A2B5 /* RambagramPageControllCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A6A593E2BF38E52CF5FEF85B16C3DF /* RambagramPageControllCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBA02A5364B2903DE699D80BE0AECC3 /* RambagramPageControllCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105C33105F38E64B8A7D3C4B4C20811 /* RambagramPageControllCell.m */; };
+		3F8162A37C6D9FA53B427A336E266293 /* RambagramFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8A54613A189E5CA6ACAE86B5A6A41D /* RambagramFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4922435BDF3EB605B79A2C9F9D225A1C /* RambagramPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EC59D86F7E74DA4BA2A94097BC5E68 /* RambagramPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61879E5FB5AA565A3314C72838DC1D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		65A48C5F89A4266F3C5C54249B199F3E /* RambagramPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8ACAEC2D0CAADCA494EF7D65BC82EB /* RambagramPageControl.m */; };
+		6F211EB603D2758CF0D1F4985E479724 /* RambagramPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52244CBC8C81A9859D3118469F01C72 /* RambagramPageControl-dummy.m */; };
+		836EAF0FD7A0D1EF613F970F413C43FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		90E3178FD03E5CFF4EA16E79A40CA5AF /* Pods-RambagramPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B1B78E7D5CF2C74102DCD8F7AAB256 /* Pods-RambagramPageControl_Tests-dummy.m */; };
+		CA99931462F5F93692B1B4ACA5E8DD89 /* RambagramPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9502310A1CD3B2BC2A31E83FE305490A /* RambagramPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6F6A451F8C82D7B443ECF4BDD147DF /* Pods-RambagramPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFD49C6DE1851E2DAC20C0F634E39AF /* Pods-RambagramPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD1C4EA24A2E1C6FD5D40E05149B519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EC68D0458878E0882FB416B85E4B04D9 /* Pods-RambagramPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D941ACD38E3771925E5DCB3B08231D05 /* Pods-RambagramPageControl_Example-dummy.m */; };
+		F24C3F725B09AA384FDF5F8359C214D7 /* Pods-RambagramPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F3169DBAFEB7ACA9E3A31EF1448996 /* Pods-RambagramPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C669D7374A84314D03F860F936B9A277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC9549F78A73726A686A9CE08C2DB1D;
+			remoteInfo = RambagramPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0429663E8A6B5923E0DF1A560D777D39 /* Pods-RambagramPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RambagramPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		063DDCD162460A1FE0DC706B37270C5B /* Pods-RambagramPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RambagramPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1105C33105F38E64B8A7D3C4B4C20811 /* RambagramPageControllCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RambagramPageControllCell.m; sourceTree = "<group>"; };
+		13978964E4FB216413257EFEBDF8A862 /* Pods-RambagramPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RambagramPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1497147460C5637BAAD53299401F5432 /* Pods-RambagramPageControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RambagramPageControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		15EC59D86F7E74DA4BA2A94097BC5E68 /* RambagramPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RambagramPageControl.h; sourceTree = "<group>"; };
+		22CCE4AB1D7F90BF966FC9D7793CC7F0 /* Pods-RambagramPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RambagramPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		285BBB447D0EA0805B1346F66E1D7173 /* RambagramPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RambagramPageControl.xcconfig; sourceTree = "<group>"; };
+		31F3169DBAFEB7ACA9E3A31EF1448996 /* Pods-RambagramPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RambagramPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		3A5350F5A03EED0072C253F4DE5D5BF7 /* Pods-RambagramPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RambagramPageControl_Example.modulemap"; sourceTree = "<group>"; };
+		40B5A2F577E074DBBE97EB554F8AF219 /* Pods-RambagramPageControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RambagramPageControl_Example-resources.sh"; sourceTree = "<group>"; };
+		43B1B78E7D5CF2C74102DCD8F7AAB256 /* Pods-RambagramPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RambagramPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		442A801B036EA86D6B091380BD774B87 /* RambagramFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RambagramFlowLayout.m; sourceTree = "<group>"; };
+		47EAF56EA8AABAB9997649263FE1D900 /* Pods-RambagramPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RambagramPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EE738D296ED5C0DBAF5B4A08A54478E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF76D26DBF49118871F8B330190D1B0 /* RambagramPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RambagramPageControl-prefix.pch"; sourceTree = "<group>"; };
+		63F1C3E1EEE5F15D22407AC5EEA37C35 /* RambagramPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RambagramPageControl.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A8A54613A189E5CA6ACAE86B5A6A41D /* RambagramFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RambagramFlowLayout.h; sourceTree = "<group>"; };
+		864E364BB7F805BA60DEA704A82A5340 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9135FB4822B4E4C42B4D504FC3CD19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8ACAEC2D0CAADCA494EF7D65BC82EB /* RambagramPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RambagramPageControl.m; sourceTree = "<group>"; };
+		9195FA86DC92EBEC2AEFA1B545F8F498 /* RambagramPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RambagramPageControl.framework; path = RambagramPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9502310A1CD3B2BC2A31E83FE305490A /* RambagramPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RambagramPageControl-umbrella.h"; sourceTree = "<group>"; };
+		9B1855173DCA77B8343DE2615B8C04C3 /* Pods-RambagramPageControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RambagramPageControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		A52244CBC8C81A9859D3118469F01C72 /* RambagramPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RambagramPageControl-dummy.m"; sourceTree = "<group>"; };
+		B2BC6BA36B7C4C3B0B170312FD5A2DA9 /* Pods-RambagramPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RambagramPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B988FF082E31BB06BB5BFCFF65939F12 /* Pods_RambagramPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RambagramPageControl_Tests.framework; path = "Pods-RambagramPageControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFD49C6DE1851E2DAC20C0F634E39AF /* Pods-RambagramPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RambagramPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C1D1792120F7A6978FD53C4302AA3C44 /* Pods-RambagramPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RambagramPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6412FC1AA45108E25940AEB55BA0189 /* Pods-RambagramPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RambagramPageControl_Tests.modulemap"; sourceTree = "<group>"; };
+		D2DE3D57BFA4BDC97187AFFDDD3E2A13 /* Pods-RambagramPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RambagramPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5C94ADEF54D8A8B5A5840AB50E10781 /* Pods-RambagramPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RambagramPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D7A6A593E2BF38E52CF5FEF85B16C3DF /* RambagramPageControllCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RambagramPageControllCell.h; sourceTree = "<group>"; };
+		D941ACD38E3771925E5DCB3B08231D05 /* Pods-RambagramPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RambagramPageControl_Example-dummy.m"; sourceTree = "<group>"; };
+		D9866377FDAC4DEDE5B2649C5B003AA2 /* Pods_RambagramPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RambagramPageControl_Example.framework; path = "Pods-RambagramPageControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B97DF1076B302F1FED335AE050A6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61879E5FB5AA565A3314C72838DC1D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5CD1EB54109ACDA2C9FA87E5A373C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836EAF0FD7A0D1EF613F970F413C43FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8799F1CAE68B1EC7D2CB4AFDBA5AC27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD1C4EA24A2E1C6FD5D40E05149B519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08183557A321F54C3F3DE4A694C53CBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A8A54613A189E5CA6ACAE86B5A6A41D /* RambagramFlowLayout.h */,
+				442A801B036EA86D6B091380BD774B87 /* RambagramFlowLayout.m */,
+				15EC59D86F7E74DA4BA2A94097BC5E68 /* RambagramPageControl.h */,
+				8E8ACAEC2D0CAADCA494EF7D65BC82EB /* RambagramPageControl.m */,
+				D7A6A593E2BF38E52CF5FEF85B16C3DF /* RambagramPageControllCell.h */,
+				1105C33105F38E64B8A7D3C4B4C20811 /* RambagramPageControllCell.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2B48C2F53CCED9941ED5700FB9FB8D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9866377FDAC4DEDE5B2649C5B003AA2 /* Pods_RambagramPageControl_Example.framework */,
+				B988FF082E31BB06BB5BFCFF65939F12 /* Pods_RambagramPageControl_Tests.framework */,
+				9195FA86DC92EBEC2AEFA1B545F8F498 /* RambagramPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376F1C9635DB4CEAF33304D843D12748 /* RambagramPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				08183557A321F54C3F3DE4A694C53CBA /* Classes */,
+			);
+			name = RambagramPageControl;
+			path = RambagramPageControl;
+			sourceTree = "<group>";
+		};
+		466287EC5046E79B587D97E50A8892F2 /* RambagramPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				376F1C9635DB4CEAF33304D843D12748 /* RambagramPageControl */,
+				9C3B0798C43AEA034874FF411832D304 /* Support Files */,
+			);
+			name = RambagramPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D1CC7F18B70E422F5F023D0FCCCD71FC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2B48C2F53CCED9941ED5700FB9FB8D07 /* Products */,
+				82655B833AA3327C5740B1E63A30C04E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82655B833AA3327C5740B1E63A30C04E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E8E417D408C33561E636AE45B36A0 /* Pods-RambagramPageControl_Example */,
+				8CA2A30707C8E1FF88980F2900475B46 /* Pods-RambagramPageControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8CA2A30707C8E1FF88980F2900475B46 /* Pods-RambagramPageControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE738D296ED5C0DBAF5B4A08A54478E /* Info.plist */,
+				C6412FC1AA45108E25940AEB55BA0189 /* Pods-RambagramPageControl_Tests.modulemap */,
+				22CCE4AB1D7F90BF966FC9D7793CC7F0 /* Pods-RambagramPageControl_Tests-acknowledgements.markdown */,
+				47EAF56EA8AABAB9997649263FE1D900 /* Pods-RambagramPageControl_Tests-acknowledgements.plist */,
+				43B1B78E7D5CF2C74102DCD8F7AAB256 /* Pods-RambagramPageControl_Tests-dummy.m */,
+				1497147460C5637BAAD53299401F5432 /* Pods-RambagramPageControl_Tests-frameworks.sh */,
+				9B1855173DCA77B8343DE2615B8C04C3 /* Pods-RambagramPageControl_Tests-resources.sh */,
+				BCFD49C6DE1851E2DAC20C0F634E39AF /* Pods-RambagramPageControl_Tests-umbrella.h */,
+				C1D1792120F7A6978FD53C4302AA3C44 /* Pods-RambagramPageControl_Tests.debug.xcconfig */,
+				063DDCD162460A1FE0DC706B37270C5B /* Pods-RambagramPageControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-RambagramPageControl_Tests";
+			path = "Target Support Files/Pods-RambagramPageControl_Tests";
+			sourceTree = "<group>";
+		};
+		9C3B0798C43AEA034874FF411832D304 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C9135FB4822B4E4C42B4D504FC3CD19 /* Info.plist */,
+				63F1C3E1EEE5F15D22407AC5EEA37C35 /* RambagramPageControl.modulemap */,
+				285BBB447D0EA0805B1346F66E1D7173 /* RambagramPageControl.xcconfig */,
+				A52244CBC8C81A9859D3118469F01C72 /* RambagramPageControl-dummy.m */,
+				5DF76D26DBF49118871F8B330190D1B0 /* RambagramPageControl-prefix.pch */,
+				9502310A1CD3B2BC2A31E83FE305490A /* RambagramPageControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RambagramPageControl";
+			sourceTree = "<group>";
+		};
+		BC0E8E417D408C33561E636AE45B36A0 /* Pods-RambagramPageControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				864E364BB7F805BA60DEA704A82A5340 /* Info.plist */,
+				3A5350F5A03EED0072C253F4DE5D5BF7 /* Pods-RambagramPageControl_Example.modulemap */,
+				13978964E4FB216413257EFEBDF8A862 /* Pods-RambagramPageControl_Example-acknowledgements.markdown */,
+				B2BC6BA36B7C4C3B0B170312FD5A2DA9 /* Pods-RambagramPageControl_Example-acknowledgements.plist */,
+				D941ACD38E3771925E5DCB3B08231D05 /* Pods-RambagramPageControl_Example-dummy.m */,
+				D5C94ADEF54D8A8B5A5840AB50E10781 /* Pods-RambagramPageControl_Example-frameworks.sh */,
+				40B5A2F577E074DBBE97EB554F8AF219 /* Pods-RambagramPageControl_Example-resources.sh */,
+				31F3169DBAFEB7ACA9E3A31EF1448996 /* Pods-RambagramPageControl_Example-umbrella.h */,
+				0429663E8A6B5923E0DF1A560D777D39 /* Pods-RambagramPageControl_Example.debug.xcconfig */,
+				D2DE3D57BFA4BDC97187AFFDDD3E2A13 /* Pods-RambagramPageControl_Example.release.xcconfig */,
+			);
+			name = "Pods-RambagramPageControl_Example";
+			path = "Target Support Files/Pods-RambagramPageControl_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1CC7F18B70E422F5F023D0FCCCD71FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				466287EC5046E79B587D97E50A8892F2 /* RambagramPageControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03B7B2C015798DBE8C1D04D9C984801F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24C3F725B09AA384FDF5F8359C214D7 /* Pods-RambagramPageControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57647064FDEDBD57D6874A8EFD096FBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F6A451F8C82D7B443ECF4BDD147DF /* Pods-RambagramPageControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E7D5AA6CFA2A46DF33B67BCACA7B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8162A37C6D9FA53B427A336E266293 /* RambagramFlowLayout.h in Headers */,
+				CA99931462F5F93692B1B4ACA5E8DD89 /* RambagramPageControl-umbrella.h in Headers */,
+				4922435BDF3EB605B79A2C9F9D225A1C /* RambagramPageControl.h in Headers */,
+				360EA22B299278739A981558F253A2B5 /* RambagramPageControllCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		450E7BE61A276E449233A8143BB43DBC /* Pods-RambagramPageControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB763BDF400F14CBEF97BE4AAFAA2557 /* Build configuration list for PBXNativeTarget "Pods-RambagramPageControl_Example" */;
+			buildPhases = (
+				1195DE9F9A916D69D9FE231A005C72F3 /* Sources */,
+				8799F1CAE68B1EC7D2CB4AFDBA5AC27C /* Frameworks */,
+				03B7B2C015798DBE8C1D04D9C984801F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4473298566ADCDD3128804C9D14124F /* PBXTargetDependency */,
+			);
+			name = "Pods-RambagramPageControl_Example";
+			productName = "Pods-RambagramPageControl_Example";
+			productReference = D9866377FDAC4DEDE5B2649C5B003AA2 /* Pods_RambagramPageControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC9549F78A73726A686A9CE08C2DB1D /* RambagramPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C7A46DBA68FEDCAEE35E49CBACFFE5C /* Build configuration list for PBXNativeTarget "RambagramPageControl" */;
+			buildPhases = (
+				DE91B4E3710A50D8FAD3E127B282B48B /* Sources */,
+				5F5CD1EB54109ACDA2C9FA87E5A373C6 /* Frameworks */,
+				EF4E7D5AA6CFA2A46DF33B67BCACA7B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RambagramPageControl;
+			productName = RambagramPageControl;
+			productReference = 9195FA86DC92EBEC2AEFA1B545F8F498 /* RambagramPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3DBC52D9FA6B1F4B701AED35DC8296B /* Pods-RambagramPageControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F9AE9B289A930A59F2669D93537BCC /* Build configuration list for PBXNativeTarget "Pods-RambagramPageControl_Tests" */;
+			buildPhases = (
+				60C2AFADC1E9C7F9AF85EA107F05A66D /* Sources */,
+				50B97DF1076B302F1FED335AE050A6F0 /* Frameworks */,
+				57647064FDEDBD57D6874A8EFD096FBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RambagramPageControl_Tests";
+			productName = "Pods-RambagramPageControl_Tests";
+			productReference = B988FF082E31BB06BB5BFCFF65939F12 /* Pods_RambagramPageControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2B48C2F53CCED9941ED5700FB9FB8D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450E7BE61A276E449233A8143BB43DBC /* Pods-RambagramPageControl_Example */,
+				C3DBC52D9FA6B1F4B701AED35DC8296B /* Pods-RambagramPageControl_Tests */,
+				8DC9549F78A73726A686A9CE08C2DB1D /* RambagramPageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1195DE9F9A916D69D9FE231A005C72F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC68D0458878E0882FB416B85E4B04D9 /* Pods-RambagramPageControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C2AFADC1E9C7F9AF85EA107F05A66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3178FD03E5CFF4EA16E79A40CA5AF /* Pods-RambagramPageControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE91B4E3710A50D8FAD3E127B282B48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134DD693B09CC8EC0A99D99EE779D2CD /* RambagramFlowLayout.m in Sources */,
+				6F211EB603D2758CF0D1F4985E479724 /* RambagramPageControl-dummy.m in Sources */,
+				65A48C5F89A4266F3C5C54249B199F3E /* RambagramPageControl.m in Sources */,
+				3EBA02A5364B2903DE699D80BE0AECC3 /* RambagramPageControllCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4473298566ADCDD3128804C9D14124F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RambagramPageControl;
+			target = 8DC9549F78A73726A686A9CE08C2DB1D /* RambagramPageControl */;
+			targetProxy = C669D7374A84314D03F860F936B9A277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00CCC9CC001C0219A42DAA657009D4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285BBB447D0EA0805B1346F66E1D7173 /* RambagramPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RambagramPageControl/RambagramPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RambagramPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RambagramPageControl/RambagramPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RambagramPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BACE598F5EE47F4A4953A7B405D8734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285BBB447D0EA0805B1346F66E1D7173 /* RambagramPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RambagramPageControl/RambagramPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RambagramPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RambagramPageControl/RambagramPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RambagramPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FDC1D3D26FFA6BE21BA4FBC68909C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DE3D57BFA4BDC97187AFFDDD3E2A13 /* Pods-RambagramPageControl_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RambagramPageControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RambagramPageControl_Example/Pods-RambagramPageControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RambagramPageControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43A3E31691F61BFB2DB18F960587098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D1792120F7A6978FD53C4302AA3C44 /* Pods-RambagramPageControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RambagramPageControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RambagramPageControl_Tests/Pods-RambagramPageControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RambagramPageControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AAC62B4E0E5A7CA6D66DAAB2D374417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063DDCD162460A1FE0DC706B37270C5B /* Pods-RambagramPageControl_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RambagramPageControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RambagramPageControl_Tests/Pods-RambagramPageControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RambagramPageControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		529176B74B4715AE8B7D8C067FE6361C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0429663E8A6B5923E0DF1A560D777D39 /* Pods-RambagramPageControl_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RambagramPageControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RambagramPageControl_Example/Pods-RambagramPageControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RambagramPageControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F9AE9B289A930A59F2669D93537BCC /* Build configuration list for PBXNativeTarget "Pods-RambagramPageControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A3E31691F61BFB2DB18F960587098C /* Debug */,
+				4AAC62B4E0E5A7CA6D66DAAB2D374417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C7A46DBA68FEDCAEE35E49CBACFFE5C /* Build configuration list for PBXNativeTarget "RambagramPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BACE598F5EE47F4A4953A7B405D8734 /* Debug */,
+				00CCC9CC001C0219A42DAA657009D4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB763BDF400F14CBEF97BE4AAFAA2557 /* Build configuration list for PBXNativeTarget "Pods-RambagramPageControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529176B74B4715AE8B7D8C067FE6361C /* Debug */,
+				34FDC1D3D26FFA6BE21BA4FBC68909C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

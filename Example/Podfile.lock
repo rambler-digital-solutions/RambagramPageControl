@@ -1,0 +1,16 @@
+PODS:
+  - RambagramPageControl (1.0.0)
+
+DEPENDENCIES:
+  - RambagramPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  RambagramPageControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RambagramPageControl: bb5b414405ac67f7108deb14407734b4c57b0117
+
+PODFILE CHECKSUM: d23587e056bd8923c418de80c4326a65bd051854
+
+COCOAPODS: 1.1.1
