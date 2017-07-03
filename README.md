@@ -4,11 +4,13 @@
 [![License](https://img.shields.io/cocoapods/l/RambagramPageControl.svg?style=flat)](http://cocoapods.org/pods/RambagramPageControl)
 [![Platform](https://img.shields.io/cocoapods/p/RambagramPageControl.svg?style=flat)](http://cocoapods.org/pods/RambagramPageControl)
 
+![](demo.gif)
+
+PageControl UI component ala Instagram. Interface Builder support. Fully interchangeable with old plain UIPageControl.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
